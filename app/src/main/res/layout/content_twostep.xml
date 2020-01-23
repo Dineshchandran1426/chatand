@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".twostep"
+    tools:showIn="@layout/activity_twostep">
+
+    <ImageView
+        android:id="@+id/img_twostep"
+        android:layout_width="193dp"
+        android:layout_height="178dp"
+        android:layout_marginBottom="428dp"
+        android:layout_x="120dp"
+        android:layout_y="141dp"
+        android:src="@drawable/twostep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="109dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="259dp"
+        android:layout_height="119dp"
+        android:layout_x="80dp"
+        android:layout_y="375dp"
+        android:text="For added security, enable two step verification, which will require a PIN when registering phone number with HaiPals again"
+        android:textSize="50px"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="320dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="146dp"
+        android:layout_height="56dp"
+        android:layout_x="126dp"
+        android:layout_y="551dp"
+        android:background="@color/colorPrimary"
+        android:text="Enable"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+</AbsoluteLayout>

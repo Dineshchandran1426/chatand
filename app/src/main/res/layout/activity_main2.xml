@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_x="1dp"
+        android:layout_y="5dp"
+        android:src="@drawable/us" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_x="67dp"
+        android:layout_y="20dp"
+        android:text="Husband"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:layout_x="207dp"
+        android:layout_y="12dp"
+        android:src="@drawable/ic_call_black_24dp" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_weight="1"
+        android:layout_x="271dp"
+        android:layout_y="13dp"
+        android:src="@drawable/ic_videocam_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="316dp"
+        android:layout_height="39dp"
+        android:layout_x="45dp"
+        android:layout_y="95dp"
+        android:text="        December 28,2019"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="42dp"
+        android:layout_x="45dp"
+        android:layout_y="137dp"
+        android:text="         Missed  12:30pm"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="50px" />
+
+
+</AbsoluteLayout>

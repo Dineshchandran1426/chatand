@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tollpay.newchat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".chathistory"
+            android:label="@string/title_activity_chathistory"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".chatbackup"
+            android:label="@string/title_activity_chatbackup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".chats"
+            android:label="@string/title_activity_chats"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".delete"
+            android:label="Delete my Account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".changenum2"
+            android:label="Change Number"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".changenum1"
+            android:label="Change Number"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".data_storage"
+            android:label="Data And Storage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contact_us"
+            android:label="contactus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Notification"
+            android:label="@string/title_activity_notification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".privacy"
+            android:label="Privacy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".grpcallinfo"
+            android:label="Call info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".twostep"
+            android:label="Two-step verification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".sos"
+            android:label="SOS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Logo" />
+        <activity
+            android:name=".Main6Activity"
+            android:label="Two step verification"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main5Activity"
+            android:label="Security"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="Account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="Settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="Call info" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+</manifest>

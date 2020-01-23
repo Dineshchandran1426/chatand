@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusFragment">
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_x="5dp"
+        android:layout_y="207dp"
+        android:src="@drawable/status" />
+
+
+    <TextView
+        android:id="@+id/name4"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_x="73dp"
+        android:layout_y="237dp"
+        android:text="Tap to add moments update"
+        android:textSize="40px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="62dp"
+        android:layout_x="72dp"
+        android:layout_y="207dp"
+        android:text="My Moments"
+        android:textSize="50px"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fab2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="330dp"
+        android:layout_y="393dp"
+        android:src="@drawable/edit_status"
+        android:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/fab3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_x="330dp"
+        android:layout_y="471dp"
+        android:background="@color/white"
+        android:src="@drawable/round_cam"
+        android:visibility="visible" />
+
+</AbsoluteLayout>

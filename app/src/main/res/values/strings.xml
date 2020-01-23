@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">HaiPals</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="title_activity_main6">Main6Activity</string>
+    <string name="title_activity_sos">sos</string>
+    <string name="title_activity_twostep">twostep</string>
+    <string name="title_activity_grpcallinfo">grpcallinfo</string>
+    <string name="title_activity_privacy">privacy</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_help">help</string>
+    <string name="title_activity_contact_us">contact_us</string>
+    <string name="data1">Voice messages are always auto-downloaded for the best communication experience</string>
+    <string name="title_activity_data_storage">data_storage</string>
+    <string name="title_activity_changenum1">Change Number</string>
+    <string name="changenum1">Change your phone number will migrate your account info, group and settings</string>
+    <string name="changenum2">Before proceeding, please confirm that you are able to receive SMS or calls at your new number. </string>
+    <string name="changenum3">If you have both a new phone and a new number, first change your number on your old phone.</string>
+    <string name="changenum4">Enter your old phone number with country code:</string>
+    <string name="changenum5">Enter your new phone number with country code:</string>
+    <string name="title_activity_changenum2">changenum2</string>
+    <string name="title_activity_delete">delete</string>
+    <string name="deleteH">Deleting your account will:</string>
+    <string name="delete1">• Delete your account from HaiPals</string>
+    <string name="delete2">• Erase your message history</string>
+    <string name="delete3">• Delete you from all of your HaiPals groups</string>
+    <string name="delete4">• Delete your Google Drive backup</string>
+    <string name="delete5">To delete your account, confirm your country code and enter your phone number.</string>
+    <string name="title_activity_chats">chats</string>
+    <string name="backup1">Backup your messages and media to Google Drive. You can restore them when you reinstall HaiPals. Your messages will also backup to your phones internal storage.</string>
+    <string name="media">Show newly downloaded media in\n your phone gallery</string>
+    <string name="backup2">Message and media backed up in Google Drive are not protected by HaiPals end-to-end encryption</string>
+    <string name="title_activity_chatbackup">Chat Backup</string>
+    <string name="title_activity_chathistory">chathistory</string>
+</resources>
