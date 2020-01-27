@@ -2,6 +2,7 @@ package com.tollpay.newchat;
 
 
 import android.app.Dialog;
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.ViewFlipper;
@@ -47,7 +49,11 @@ public class FirestFragment extends Fragment {
         viewFlipper.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                View popupview = LayoutInflater.from(getActivity()).inflate(R.layout.activity_popup,null);
+                final PopupWindow popupWindow= new PopupWindow(popupview, WindowManager.LayoutParams.MATCH_PARENT,WindowManager.LayoutParams.MATCH_PARENT);
+                if (Build.VERSION.SDK_INT != 24) {
+                    popupWindow.update();
+                }
 
             }
         });
