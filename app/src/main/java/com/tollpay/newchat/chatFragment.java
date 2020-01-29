@@ -13,6 +13,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
+import android.view.SurfaceControl;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -79,7 +80,20 @@ public class chatFragment extends Fragment {
         FragmentManager manager1 = getFragmentManager();
         manager1.beginTransaction().replace(R.id.second_laout,secondFragment,secondFragment.getTag()).commit();
 
+    }
+
+    @Override
+    public void onResume() {
+
+        FirestFragment firestFragment= new FirestFragment();
+        FragmentManager manager = getFragmentManager();
+        manager.beginTransaction().replace(R.id.first_layout,firestFragment,firestFragment.getTag()).commit();
 
 
+        secondFragment secondFragment = new secondFragment();
+        FragmentManager manager1 = getFragmentManager();
+        manager1.beginTransaction().replace(R.id.second_laout,secondFragment,secondFragment.getTag()).commit();
+
+        super.onResume();
     }
 }
