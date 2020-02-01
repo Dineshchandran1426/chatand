@@ -26,7 +26,7 @@
         android:layout_x="80dp"
         android:layout_y="375dp"
         android:text="For added security, enable two step verification, which will require a PIN when registering phone number with HaiPals again"
-        android:textSize="50px"
+        android:textSize="15sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="76dp"
         tools:layout_editor_absoluteY="320dp" />
@@ -40,6 +40,7 @@
         android:background="@color/colorPrimary"
         android:text="Enable"
         android:textColor="@color/white"
+        android:textSize="15sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="491dp" />

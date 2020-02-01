@@ -15,12 +15,54 @@
         android:layout_marginTop="70dp"
         app:srcCompat="@drawable/tick2" />
 
-    <TextView android:layout_height="50dp" android:layout_width="330dp" android:layout_marginLeft="30dp" android:id="@+id/text_id" android:gravity="start" android:layout_below="@+id/imageView2" android:textStyle="bold" android:layout_marginTop="10dp" android:textAlignment="viewStart" android:textSize="15dp" android:text="@string/changenum1"/>
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:text="@string/changenum1"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="50dp" android:layout_width="330dp" android:layout_marginLeft="30dp" android:id="@+id/text_id1" android:gravity="start" android:layout_below="@+id/text_id" android:layout_marginTop="10dp" android:textAlignment="viewStart" android:textSize="15dp" android:text="@string/changenum2"/>
+    <TextView
+        android:id="@+id/text_id1"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_id"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:text="@string/changenum2"
+        android:textAlignment="viewStart"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="50dp" android:layout_width="330dp" android:layout_marginLeft="30dp" android:id="@+id/text_id2" android:gravity="start" android:layout_below="@+id/text_id1" android:layout_marginTop="10dp" android:textAlignment="viewStart" android:textSize="15dp" android:text="@string/changenum3"/>
+    <TextView
+        android:id="@+id/text_id2"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/text_id1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="start"
+        android:text="@string/changenum3"
+        android:textAlignment="viewStart"
+        android:textSize="15sp" />
 
-    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginLeft="140dp" android:id="@+id/b1" android:layout_below="@id/text_id2" android:layout_marginTop="195dp" android:textSize="18sp" android:text="Next" android:typeface="normal" android:textColor="@android:color/background_light" android:background="#034da2"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_id2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="195dp"
+        android:background="#034da2"
+        android:text="Next"
+        android:textColor="@android:color/background_light"
+        android:textSize="15sp"
+        android:typeface="normal" />
 
 </RelativeLayout>

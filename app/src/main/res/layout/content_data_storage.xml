@@ -2,31 +2,137 @@
 
     <RelativeLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView android:layout_height="30dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:textColor="@color/colorPrimary" android:text="Usage" android:layout_marginTop="20dp" android:layout_marginLeft="20dp" android:id="@+id/text_id01"/>
+    <TextView
+        android:id="@+id/text_id01"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Usage"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Network usage" android:layout_marginTop="20dp" android:layout_marginLeft="20dp" android:id="@+id/text_id02" android:layout_below="@id/text_id01"/>
+    <TextView
+        android:id="@+id/text_id02"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id01"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Network usage"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="113.0 MB sent • 29.1 MB received" android:layout_marginLeft="20dp" android:id="@+id/text_id03" android:layout_below="@id/text_id02"/>
+    <TextView
+        android:id="@+id/text_id03"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id02"
+        android:layout_marginLeft="20dp"
+        android:text="113.0 MB sent • 29.1 MB received"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Storage usage" android:layout_marginTop="10dp" android:layout_marginLeft="20dp" android:id="@+id/text_id04" android:layout_below="@id/text_id03"/>
+    <TextView
+        android:id="@+id/text_id04"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id03"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Storage usage"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="95.9 MB" android:layout_marginLeft="20dp" android:id="@+id/text_id05" android:layout_below="@id/text_id04"/>
+    <TextView
+        android:id="@+id/text_id05"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id04"
+        android:layout_marginLeft="20dp"
+        android:text="95.9 MB"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="30dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:textColor="@color/colorPrimary" android:text="Media auto-downloaded" android:layout_marginTop="30dp" android:layout_marginLeft="20dp" android:id="@+id/text_id06" android:layout_below="@id/text_id05"/>
+    <TextView
+        android:id="@+id/text_id06"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/text_id05"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Media auto-downloaded"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="40dp" android:layout_width="300dp" android:textSize="15dp" android:text="@string/data1" android:layout_marginLeft="20dp" android:id="@+id/text_id07" android:layout_below="@id/text_id06"/>
+    <TextView
+        android:id="@+id/text_id07"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/text_id06"
+        android:layout_marginLeft="20dp"
+        android:text="@string/data1"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="When using mobile data" android:layout_marginTop="20dp" android:layout_marginLeft="20dp" android:id="@+id/text_id08" android:layout_below="@id/text_id07"/>
+    <TextView
+        android:id="@+id/text_id08"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id07"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="When using mobile data"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="Photos" android:layout_marginLeft="20dp" android:id="@+id/text_id09" android:layout_below="@id/text_id08"/>
+    <TextView
+        android:id="@+id/text_id09"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id08"
+        android:layout_marginLeft="20dp"
+        android:text="Photos"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="When connected on Wi-Fi" android:layout_marginTop="10dp" android:layout_marginLeft="20dp" android:id="@+id/text_id10" android:layout_below="@id/text_id09"/>
+    <TextView
+        android:id="@+id/text_id10"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id09"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="When connected on Wi-Fi"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="All media" android:layout_marginLeft="20dp" android:id="@+id/text_id11" android:layout_below="@id/text_id10"/>
+    <TextView
+        android:id="@+id/text_id11"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id10"
+        android:layout_marginLeft="20dp"
+        android:text="All media"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="When roaming" android:layout_marginTop="10dp" android:layout_marginLeft="20dp" android:id="@+id/text_id12" android:layout_below="@id/text_id11"/>
+    <TextView
+        android:id="@+id/text_id12"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id11"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="When roaming"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="No media" android:layout_marginLeft="20dp" android:id="@+id/text_id13" android:layout_below="@id/text_id12"/>
+    <TextView
+        android:id="@+id/text_id13"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_below="@id/text_id12"
+        android:layout_marginLeft="20dp"
+        android:text="No media"
+        android:textSize="15sp" />
 
     <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="15sp" android:textColor="@color/colorPrimary" android:text="Call settings" android:layout_marginTop="30dp" android:layout_marginLeft="20dp" android:id="@+id/textView14" android:layout_below="@id/text_id13"/>
 

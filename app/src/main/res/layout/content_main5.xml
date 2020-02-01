@@ -29,7 +29,8 @@
             android:layout_height="70dp"
             android:layout_x="39dp"
             android:layout_y="245dp"
-            android:text="Your message and calls are secured with end to end encryption, which means application and third parties cant read or listen to them." />
+            android:text="Your message and calls are secured with end to end encryption, which means application and third parties cant read or listen to them."
+            android:textSize="15sp" />
     </AbsoluteLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

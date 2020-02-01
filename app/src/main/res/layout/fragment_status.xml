@@ -5,23 +5,23 @@
     android:layout_height="match_parent"
     tools:context=".StatusFragment">
 
+
     <ImageView
         android:id="@+id/img3"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_weight="1"
-        android:layout_x="5dp"
-        android:layout_y="207dp"
+        android:layout_x="10dp"
+        android:layout_y="10dp"
         android:src="@drawable/status" />
-
 
     <TextView
         android:id="@+id/name4"
         android:layout_width="700px"
         android:layout_height="wrap_content"
         android:layout_marginLeft="62dp"
-        android:layout_x="73dp"
-        android:layout_y="237dp"
+        android:layout_x="70dp"
+        android:layout_y="40dp"
         android:text="Tap to add moments update"
         android:textSize="40px"
         android:textStyle="bold" />
@@ -31,8 +31,8 @@
         android:layout_width="700px"
         android:layout_height="wrap_content"
         android:layout_marginLeft="62dp"
-        android:layout_x="72dp"
-        android:layout_y="207dp"
+        android:layout_x="74dp"
+        android:layout_y="10dp"
         android:text="My Moments"
         android:textSize="50px"
         android:textStyle="bold" />

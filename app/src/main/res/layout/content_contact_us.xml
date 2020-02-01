@@ -10,7 +10,7 @@
         android:layout_marginTop="200dp"
         android:text="Add Screenshots (optional)"
         android:textColor="#034da2"
-        android:textSize="24sp" />
+        android:textSize="15sp" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -36,9 +36,24 @@
         android:layout_marginTop="250dp"
         app:srcCompat="@android:drawable/ic_menu_add" />
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18sp" android:textColor="#034da2" android:text="Have you read our FAQ yet ? " android:layout_marginTop="600dp" android:layout_marginLeft="20dp" android:id="@+id/textView9"/>
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="600dp"
+        android:text="Have you read our FAQ yet ? "
+        android:textColor="#034da2"
+        android:textSize="15sp" />
 
-    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="NEXT" android:layout_marginTop="590dp" android:layout_marginLeft="300dp" android:id="@+id/button3"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="590dp"
+        android:text="NEXT"
+        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/editText3"

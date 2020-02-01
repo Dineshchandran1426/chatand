@@ -10,48 +10,50 @@
     -<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" android:layout_marginRight="10dp">
 
     <TextView
-        android:layout_height="match_parent"
         android:layout_width="250dp"
-        android:textColor="#034da2"
-        android:text="Who can see my personal info"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="10dp"/>
+        android:text="Who can see my personal info"
+        android:textColor="#034da2"
+        android:textSize="15sp" />
 
-    <TextView android:layout_height="match_parent" android:layout_width="match_parent" android:layout_marginRight="10dp" android:text="If you don't share your Last Seen,you won't be able to see other people's Last Seen" android:layout_marginTop="60dp" android:layout_marginLeft="10dp" android:textSize="14sp"/>
+    <TextView  android:textSize="15sp"
+        android:layout_height="match_parent" android:layout_width="match_parent" android:layout_marginRight="10dp" android:text="If you don't share your Last Seen,you won't be able to see other people's Last Seen" android:layout_marginTop="60dp" android:layout_marginLeft="10dp" />
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Last Seen" android:layout_marginTop="130dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Last Seen" android:layout_marginTop="130dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Profile Photo" android:layout_marginTop="220dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView2"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Profile Photo" android:layout_marginTop="220dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView2"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="About" android:layout_marginTop="300dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView3"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="About" android:layout_marginTop="300dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView3"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Status " android:layout_marginTop="390dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView4"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Status " android:layout_marginTop="390dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView4"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Read receipts" android:layout_marginTop="480dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView5"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Read receipts" android:layout_marginTop="480dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView5"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="150dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="150dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="240dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button2" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="240dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button2" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="320dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button3" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="320dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button3" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="410dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button4" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="410dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button4" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="615dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button5" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="Everyone" android:layout_marginTop="615dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button5" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="None" android:layout_marginTop="715dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button6" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="None" android:layout_marginTop="715dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button6" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="None" android:layout_marginTop="800dp" android:layout_marginLeft="10dp" android:textSize="14sp" android:id="@+id/button7" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
+    <Button android:layout_height="wrap_content" android:layout_width="250dp" android:layout_marginRight="10dp" android:text="None" android:layout_marginTop="800dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/button7"   android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFCFC"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="280dp" android:text="If turned off, you won't send or receive Read receipts. Read receipts are always sent for group chats." android:layout_marginTop="510dp" android:layout_marginLeft="10dp"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="280dp" android:text="If turned off, you won't send or receive Read receipts. Read receipts are always sent for group chats." android:layout_marginTop="510dp"  android:textSize="15sp" android:layout_marginLeft="10dp"/>
 
     <Switch android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="520dp" android:layout_marginLeft="350dp" android:id="@+id/switch1"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Groups" android:layout_marginTop="590dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView6"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Groups" android:layout_marginTop="590dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView6"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Live location" android:layout_marginTop="690dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView7"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Live location" android:layout_marginTop="690dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView7"/>
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Blocked contacts" android:layout_marginTop="780dp" android:layout_marginLeft="10dp" android:textSize="18sp" android:id="@+id/textView8"/>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_marginRight="10dp" android:textColor="#E91B1A1A" android:text="Blocked contacts" android:layout_marginTop="780dp" android:layout_marginLeft="10dp" android:textSize="15sp" android:id="@+id/textView8"/>
 
 </RelativeLayout>
 

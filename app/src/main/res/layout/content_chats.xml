@@ -76,7 +76,8 @@
         android:gravity="left|center_vertical"
         android:text="Chat Backup"
         android:textAllCaps="false"
-        android:textColor="#B0201E1E" />
+        android:textColor="#B0201E1E"
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/button12"
@@ -88,7 +89,8 @@
         android:gravity="left|center_vertical"
         android:text="Chat History"
         android:textAllCaps="false"
-        android:textColor="#B0201E1E" />
+        android:textColor="#B0201E1E"
+        android:textSize="15sp" />
     />
 
 </RelativeLayout>

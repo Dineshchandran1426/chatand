@@ -21,6 +21,17 @@ Button next;
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Main4Activity.class));
+                finish();
+            }
+
+        });
+
         next= (Button)findViewById(R.id.b1);
 
 

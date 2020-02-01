@@ -24,6 +24,16 @@ public class help extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Main3Activity.class));
+                finish();
+            }
+
+        });
 
         contact =(Button)findViewById(R.id.button2);
 

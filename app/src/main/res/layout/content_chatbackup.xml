@@ -11,35 +11,150 @@
         android:drawablePadding="10dp"
         android:text="Last Backup"
         android:textColor="#034da2"
-        android:textSize="15dp"
+        android:textSize="15sp"
         android:textStyle="bold"
         android:id="@+id/text_id01" />
 
-    <TextView android:layout_height="80dp" android:layout_width="300dp" android:textSize="15dp" android:text="@string/backup1" android:drawablePadding="10dp" android:layout_marginTop="20dp" android:layout_marginLeft="50dp" android:id="@+id/text_id02" android:layout_below="@id/text_id01"/>
+ <TextView
+     android:id="@+id/text_id02"
+     android:layout_width="300dp"
+     android:layout_height="80dp"
+     android:layout_below="@id/text_id01"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="20dp"
+     android:drawablePadding="10dp"
+     android:text="@string/backup1"
+     android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Local: 02:00" android:drawablePadding="10dp" android:layout_marginTop="10dp" android:layout_marginLeft="50dp" android:id="@+id/text_id03" android:layout_below="@id/text_id02"/>
+ <TextView
+     android:id="@+id/text_id03"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id02"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="10dp"
+     android:drawablePadding="10dp"
+     android:text="Local: 02:00"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Google Drive: 10/8/19, 07:00" android:drawablePadding="10dp" android:layout_marginLeft="50dp" android:id="@+id/text_id04" android:layout_below="@id/text_id03"/>
+ <TextView
+     android:id="@+id/text_id04"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id03"
+     android:layout_marginLeft="50dp"
+     android:drawablePadding="10dp"
+     android:text="Google Drive: 10/8/19, 07:00"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Size:11 MB" android:drawablePadding="10dp" android:layout_marginLeft="50dp" android:id="@+id/text_id05" android:layout_below="@id/text_id04"/>
+ <TextView
+     android:id="@+id/text_id05"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id04"
+     android:layout_marginLeft="50dp"
+     android:drawablePadding="10dp"
+     android:text="Size:11 MB"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="@android:color/white" android:text="BACK UP" android:layout_marginTop="20dp" android:layout_marginLeft="50dp" android:id="@+id/b4" android:layout_below="@id/text_id05" android:background="#2673D1"/>
+ <Button
+     android:id="@+id/b4"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/text_id05"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="20dp"
+     android:background="#2673D1"
+     android:text="BACK UP"
+     android:textColor="@android:color/white"
+     android:textSize="15sp" />
 
-    <TextView android:layout_height="30dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:textColor="#034da2" android:text="Google Drive settings" android:drawablePadding="10dp" android:drawableLeft="@android:drawable/ic_menu_save" android:layout_marginTop="20dp" android:layout_marginLeft="10dp" android:id="@+id/text_id06" android:layout_below="@id/b4"/>
+ <TextView
+     android:id="@+id/text_id06"
+     android:layout_width="300dp"
+     android:layout_height="30dp"
+     android:layout_below="@id/b4"
+     android:layout_marginLeft="10dp"
+     android:layout_marginTop="20dp"
+     android:drawableLeft="@android:drawable/ic_menu_save"
+     android:drawablePadding="10dp"
+     android:text="Google Drive settings"
+     android:textColor="#034da2"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <TextView android:layout_height="80dp" android:layout_width="300dp" android:textSize="15dp" android:text="@string/backup2" android:drawablePadding="10dp" android:layout_marginTop="20dp" android:layout_marginLeft="50dp" android:id="@+id/text_id07" android:layout_below="@id/text_id06"/>
+ <TextView
+     android:id="@+id/text_id07"
+     android:layout_width="300dp"
+     android:layout_height="80dp"
+     android:layout_below="@id/text_id06"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="20dp"
+     android:drawablePadding="10dp"
+     android:text="@string/backup2"
+     android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Back up to Google Drive" android:layout_marginLeft="50dp" android:id="@+id/text_id08" android:layout_below="@id/text_id07"/>
+ <TextView
+     android:id="@+id/text_id08"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id07"
+     android:layout_marginLeft="50dp"
+     android:text="Back up to Google Drive"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="Daily" android:layout_marginLeft="50dp" android:id="@+id/text_id09" android:layout_below="@id/text_id08"/>
+ <TextView
+     android:id="@+id/text_id09"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id08"
+     android:layout_marginLeft="50dp"
+     android:text="Daily"
+     android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Google Account" android:layout_marginTop="10dp" android:layout_marginLeft="50dp" android:id="@+id/text_id010" android:layout_below="@id/text_id09"/>
+ <TextView
+     android:id="@+id/text_id010"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id09"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="10dp"
+     android:text="Google Account"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="praveendaas12@gmail.com" android:layout_marginLeft="50dp" android:id="@+id/text_id11" android:layout_below="@id/text_id010"/>
+ <TextView
+     android:id="@+id/text_id11"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id010"
+     android:layout_marginLeft="50dp"
+     android:text="praveendaas12@gmail.com"
+     android:textSize="15sp" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textStyle="bold" android:textSize="15dp" android:text="Back Up over" android:layout_marginTop="10dp" android:layout_marginLeft="50dp" android:id="@+id/text_id012" android:layout_below="@id/text_id11"/>
+ <TextView
+     android:id="@+id/text_id012"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id11"
+     android:layout_marginLeft="50dp"
+     android:layout_marginTop="10dp"
+     android:text="Back Up over"
+     android:textSize="15sp"
+     android:textStyle="bold" />
 
-    <TextView android:layout_height="20dp" android:layout_width="300dp" android:textSize="15dp" android:text="Wi-Fi only" android:layout_marginLeft="50dp" android:id="@+id/text_id13" android:layout_below="@id/text_id012"/>
+ <TextView
+     android:id="@+id/text_id13"
+     android:layout_width="300dp"
+     android:layout_height="20dp"
+     android:layout_below="@id/text_id012"
+     android:layout_marginLeft="50dp"
+     android:text="Wi-Fi only"
+     android:textSize="15sp" />
 
     <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="15sp" android:text="Include videos" android:layout_marginTop="20dp" android:layout_marginLeft="50dp" android:id="@+id/text_id14" android:layout_below="@id/text_id13"/>
 

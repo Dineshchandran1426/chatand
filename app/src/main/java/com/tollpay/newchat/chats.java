@@ -21,6 +21,17 @@ Button backup,del;
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Main3Activity.class));
+                finish();
+            }
+
+        });
+
         backup= (Button)findViewById(R.id.button11);
         del = (Button)findViewById(R.id.button12);
 

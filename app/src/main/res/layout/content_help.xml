@@ -7,20 +7,54 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".help"
     tools:showIn="@layout/activity_help">
-    <Button android:layout_height="wrap_content"
-        android:layout_width="match_parent" android:text="FAQ"
-        android:textAllCaps="false"
-        android:gravity="left|center_vertical"
-        android:background="#00FFFEFE"
-        android:layout_marginTop="30dp"
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
-        android:id="@+id/button"/>
+        android:layout_marginTop="30dp"
+        android:background="#00FFFEFE"
+        android:gravity="left|center_vertical"
+        android:text="FAQ"
+        android:textAllCaps="false"
+        android:textSize="50px" />
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Contact us \nQuestions? Need help?" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFEFE" android:layout_marginTop="100dp" android:layout_marginLeft="50dp" android:id="@+id/button2"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:background="#00FFFEFE"
+        android:gravity="left|center_vertical"
+        android:text="Contact us \nQuestions? Need help?"
+        android:textAllCaps="false"
+        android:textSize="50px" />
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Terms and Privacy Policy" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFEFE" android:layout_marginTop="170dp" android:layout_marginLeft="50dp" android:id="@+id/button3"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:background="#00FFFEFE"
+        android:gravity="left|center_vertical"
+        android:text="Terms and Privacy Policy"
+        android:textAllCaps="false"
+        android:textSize="50px" />
 
-    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="App info" android:textAllCaps="false" android:gravity="left|center_vertical" android:background="#00FFFEFE" android:layout_marginTop="240dp" android:layout_marginLeft="50dp" android:id="@+id/button4"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="240dp"
+        android:background="#00FFFEFE"
+        android:gravity="left|center_vertical"
+        android:text="App info"
+        android:textAllCaps="false"
+        android:textSize="50px" />
 
     <ImageView android:layout_height="62dp" android:layout_width="37dp" android:layout_marginTop="30dp" android:layout_marginLeft="0dp" android:id="@+id/imageView" app:srcCompat="@drawable/qustn"/>
 

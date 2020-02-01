@@ -6,18 +6,51 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="35dp"
             android:layout_marginTop="70dp"
             android:drawableLeft="@android:drawable/ic_menu_upload"
-            android:text="Export Chat"
+            android:text="   Export Chat"
             android:textSize="15sp"
             android:textStyle="bold"
             android:id="@+id/textView9" />
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="15sp" android:text="Archieve all chats" android:drawableLeft="@android:drawable/arrow_down_float" android:layout_marginTop="20dp" android:layout_marginLeft="35dp" android:id="@+id/textView10" android:drawablePadding="10dp" android:layout_below="@id/textView9"/>
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView9"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@android:drawable/arrow_down_float"
+        android:drawablePadding="10dp"
+        android:text="    Archieve all chats"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="15sp" android:text="Clear all chats" android:drawableLeft="@android:drawable/radiobutton_on_background" android:layout_marginTop="20dp" android:layout_marginLeft="33dp" android:id="@+id/textView11" android:drawablePadding="10dp" android:layout_below="@id/textView10"/>
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@android:drawable/radiobutton_on_background"
+        android:drawablePadding="10dp"
+        android:text="   Clear all chats"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
-    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="15sp" android:text="Delete all chats" android:drawableLeft="@android:drawable/ic_menu_delete" android:layout_marginTop="20dp" android:layout_marginLeft="28dp" android:id="@+id/textView12" android:drawablePadding="8dp" android:layout_below="@id/textView11"/>
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView11"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_delete"
+        android:drawablePadding="8dp"
+        android:text="Delete all chats"
+        android:textSize="15sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

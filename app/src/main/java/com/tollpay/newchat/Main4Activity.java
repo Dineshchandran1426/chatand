@@ -28,6 +28,16 @@ Button del;
         setSupportActionBar(toolbar);
 
        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Main3Activity.class));
+                finish();
+            }
+
+        });
 
        sec = (Button)findViewById(R.id.button2);
        ver = (Button)findViewById(R.id.button3);

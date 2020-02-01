@@ -28,6 +28,16 @@ public class Main3Activity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                finish();
+            }
+
+        });
 
         acc = (Button)findViewById(R.id.button);
         noti = (Button)findViewById(R.id.button3);

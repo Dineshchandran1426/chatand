@@ -34,10 +34,11 @@
             android:layout_height="34dp"
             android:layout_x="78dp"
             android:layout_y="201dp"
-            android:text="Privacy"
             android:background="#00FFFEFE"
+            android:gravity="left|center_vertical"
+            android:text="Privacy"
             android:textAllCaps="false"
-            android:gravity="left|center_vertical"/>
+            android:textSize="50px" />
 
         <Button
             android:id="@+id/button2"
@@ -47,6 +48,7 @@
             android:layout_y="271dp"
             android:background="#00FFFEFE"
             android:text="Security"
+            android:textSize="50px"
             android:textAllCaps="false"
             android:gravity="left|center_vertical"/>
 
@@ -56,6 +58,7 @@
             android:layout_width="276dp"
             android:layout_height="34dp"
             android:layout_x="80dp"
+            android:textSize="50px"
             android:layout_y="345dp"
             android:background="#00FFFEFE"
             android:text="Two-step verification"
@@ -68,6 +71,7 @@
             android:layout_height="34dp"
             android:layout_x="79dp"
             android:layout_y="409dp"
+            android:textSize="50px"
             android:background="#00FFFEFE"
             android:text="Change number"
             android:textAllCaps="false"
@@ -78,6 +82,7 @@
             android:layout_width="276dp"
             android:layout_height="34dp"
             android:layout_x="80dp"
+            android:textSize="50px"
             android:layout_y="478dp"
             android:background="#00FFFEFE"
             android:text="Request account info"
@@ -89,6 +94,7 @@
             android:layout_width="276dp"
             android:layout_height="34dp"
             android:layout_x="80dp"
+            android:textSize="50px"
             android:layout_y="549dp"
             android:background="#00FFFEFE"
             android:text="Delete my account"
