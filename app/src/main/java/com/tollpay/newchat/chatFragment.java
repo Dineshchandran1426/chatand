@@ -2,22 +2,16 @@ package com.tollpay.newchat;
 
 
 
-import android.content.Intent;
+
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.SurfaceControl;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
@@ -29,7 +23,7 @@ public class chatFragment extends Fragment {
 
 
     FloatingActionButton fap;
-     View v;
+    View v;
 
 
     public chatFragment() {
@@ -53,7 +47,7 @@ public class chatFragment extends Fragment {
 //        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
 //        recyclerView.setLayoutManager(layoutManager);
 
-//          Fragment fragment = new Fragment();
+//        Fragment fragment = new Fragment();
 //        FragmentTransaction transaction= getChildFragmentManager().beginTransaction();
 //        transaction.add(R.id.advertisement,fragment).commit();
 
@@ -88,7 +82,6 @@ public class chatFragment extends Fragment {
         FirestFragment firestFragment= new FirestFragment();
         FragmentManager manager = getFragmentManager();
         manager.beginTransaction().replace(R.id.first_layout,firestFragment,firestFragment.getTag()).commit();
-
 
         secondFragment secondFragment = new secondFragment();
         FragmentManager manager1 = getFragmentManager();
